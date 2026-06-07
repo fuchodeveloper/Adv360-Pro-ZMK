@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/stp.h>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 800
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
