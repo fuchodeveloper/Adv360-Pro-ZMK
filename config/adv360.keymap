@@ -72,33 +72,13 @@
             >;
         };
 
-        extra1 {
-            display-name = "Red";
-            status = "reserved";
-        };
-
-        extra2 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Cyan";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Yellow";
-            status = "reserved";
-        };
-
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &trans  &trans                                      &trans  &trans  &trans        &trans          &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans        &trans  &trans                                      &trans  &trans  &trans        &trans          &trans          &trans           &trans
-&to 0   &trans  &trans  &trans  &mmv MOVE_UP  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_LEFT  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans        &trans                  &trans      &trans                  &trans  &trans        &trans          &trans          &trans           &trans
-&trans  &trans  &trans  &trans  &trans                &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans          &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
